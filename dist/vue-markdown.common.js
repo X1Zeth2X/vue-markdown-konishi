@@ -1,6 +1,6 @@
 /*!
  * /**
- *  * vue-markdown v2 * https://github.com/Akirami/vue-markdown-v2
+ *  * vue-markdown for Konishi * https://github.com/X1Zeth2X/vue-markdown-konishi
  *  * MIT License
  *  * /
  * 

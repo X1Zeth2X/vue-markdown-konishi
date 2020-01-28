@@ -94,19 +94,19 @@ Supported Markdown Syntax:
 ### NPM
 
 ```shell
-$ npm install --save vue-markdown-v2
+$ npm install --save vue-markdown-konishi
 ```
 
 or Yarn
 
 ```shell
-$ yarn add vue-markdown-v2 --save
+$ yarn add vue-markdown-konishi --save
 ```
 
 ## CommonJS
 
 ```js
-var VueMarkdown = require('vue-markdown-v2);
+var VueMarkdown = require('vue-markdown-konishi);
 
 new Vue({
   components: {
@@ -120,7 +120,7 @@ new Vue({
 After installing via Yarn or NPM, use the following snippet in the script portion of the Vue component which you wish to render the Markdown.
 
 ```js
-import VueMarkdown from 'vue-markdown-v2'
+import VueMarkdown from 'vue-markdown-konishi'
 
 new Vue({
   components: {
