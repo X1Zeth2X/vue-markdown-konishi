@@ -122,7 +122,7 @@ export default {
       .use(mark)
       .use(katex, { "throwOnError": false, "errorColor": " #cc0000" })
       .use(tasklists, { enabled: this.taskLists })
-      .use(highlight)
+      .use(prism)
 
     if (this.emoji) {
       this.md.use(emoji)
