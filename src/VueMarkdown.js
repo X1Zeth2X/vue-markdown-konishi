@@ -8,13 +8,6 @@ import katex from '@iktakahiro/markdown-it-katex'
 import container from 'markdown-it-container'
 import tasklists from 'markdown-it-task-lists'
 import markdownItSourceMap from 'markdown-it-source-map'
-import prism from "markdown-it-prism"
-
-// PrismJS
-// Use dark theme (tomorrow-night)
-import "prismjs/themes/prism-tomorrow.css"
-// Import core language
-import "prismjs/components/prism-core"
 
 export default {
   md: new markdownIt(),
@@ -122,7 +115,6 @@ export default {
       .use(mark)
       .use(katex, { "throwOnError": false, "errorColor": " #cc0000" })
       .use(tasklists, { enabled: this.taskLists })
-      .use(prism)
 
     if (this.emoji) {
       this.md.use(emoji)
