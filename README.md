@@ -106,7 +106,7 @@ $ yarn add vue-markdown-konishi --save
 ## CommonJS
 
 ```js
-var VueMarkdown = require('vue-markdown-konishi);
+var VueMarkdown = require('vue-markdown-konishi');
 
 new Vue({
   components: {
