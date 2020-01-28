@@ -3,10 +3,19 @@ This fork is intended to work with Webpack 4 and Babel 7, it's open for issues a
 Added :
 - markdown-it-container
 - markdown-it-source-map
-- markdown-it-icons
 - Corrected the source for mardown-it-katex
 - update dependencies to work with Babel V7
 - created a dist folder using Webpack 4 and Babel 7
+
+The following items have been removed as I think that Konishi won't need such features for its
+markdown previews.
+
+Remove:
+- markdown-it-icons
+- markdown-it-footnote
+- markdown-it-abbr
+- markdown-it-ins
+- markdown-it-toc-and-anchor
 
 TODO:
 - It need loader for emoji (markdown-it-emoji)
