@@ -25,9 +25,9 @@
   "author": "miaolz123",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Akirami/vue-markdown-V2/issues"
+    "url": "https://github.com/X1Zeth2X/vue-markdown-konishi/issues"
   },
-  "homepage": "https://github.com/Akirami/vue-markdown-V2/blob/master/README.md",
+  "homepage": "https://github.com/X1Zeth2X/vue-markdown-konishi/blob/master/README.md",
   "dependencies": {
     "@iktakahiro/markdown-it-katex": "git+https://github.com/iktakahiro/markdown-it-katex.git",
     "markdown-it": "^8.4.2",

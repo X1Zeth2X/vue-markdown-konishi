@@ -3,7 +3,7 @@ var version = require("./package.json").version;
 var path = require('path');
 var banner =
   "/**\n" +
-  " * vue-markdown v2" +
+  " * vue-markdown for Konishi" +
   " * https://github.com/X1Zeth2X/vue-markdown-konishi\n" +
   " * MIT License\n" +
   " */\n";
