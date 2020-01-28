@@ -4,7 +4,7 @@ var path = require('path');
 var banner =
   "/**\n" +
   " * vue-markdown v2" +
-  " * https://github.com/Akirami/vue-markdown-v2\n" +
+  " * https://github.com/X1Zeth2X/vue-markdown-konishi\n" +
   " * MIT License\n" +
   " */\n";
 
