@@ -7,26 +7,6 @@ Added :
 - update dependencies to work with Babel V7
 - created a dist folder using Webpack 4 and Babel 7
 
-The following items have been removed as I think that Konishi won't need such features for its
-markdown previews.
-
-Remove:
-- markdown-it-icons
-- markdown-it-footnote
-- markdown-it-abbr
-- markdown-it-ins
-- markdown-it-toc-and-anchor
-
-TODO:
-- It need loader for emoji (markdown-it-emoji)
-
-Next plugin to add:
-- markdown-it-plugin-echarts
-- markdown-it-plugin-mermaid
-- markdown-it-plugin-flowchart
-
-
-
 # vue-markdown
 
 [![npm](https://img.shields.io/npm/v/vue-markdown.svg?style=flat)](https://www.npmjs.com/package/vue-markdown)
@@ -42,21 +22,15 @@ Quick start: `<vue-markdown>i am a ~~tast~~ **test**.</vue-markdown>`
 Supported Markdown Syntax:
 
 * [x] Source map in html (data-source-line="")
-* [x] automatic table of contents
-* [x] table & class customize
 * [x] *SyntaxHighlighter
 * [x] custom container
 * [x] definition list
 * [x] strikethrough
 * [x] GFM task list
-* [x] abbreviation
 * [x] superscript
 * [x] subscript
-* [x] footnote
-* [x] insert
 * [x] *katex
 * [x] emoji
-* [x] icon
 * [x] mark
 
 `*SyntaxHighlighter` work with [Prism](https://prismjs.com) recommend
@@ -193,11 +167,6 @@ Possible containers:
 - centered
 - justify
 
-# Icons
-```
-A :fa-car: runs
-```
-A :fa-car: runs
 # Thanks
 
 - [markdown-it](https://github.com/markdown-it/markdown-it)
