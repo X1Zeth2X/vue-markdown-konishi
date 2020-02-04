@@ -1,6 +1,6 @@
 {
   "name": "vue-markdown-konishi",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "A Minimal and Highspeed Markdown Parser for Vue",
   "main": "dist/vue-markdown.common.js",
   "files": [
