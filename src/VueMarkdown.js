@@ -77,10 +77,6 @@ export default {
       type: String,
       default: '“”‘’',
     },
-    tableClass: {
-      type: String,
-      default: 'table',
-    },
     taskLists: {
       type: Boolean,
       default: true
@@ -132,7 +128,6 @@ export default {
       langPrefix: this.langPrefix,
       quotes: this.quotes,
     })
-    this.md.renderer.rules.table_open = () => `<table class="${this.tableClass}">\n`
     let defaultLinkRenderer = this.md.renderer.rules.link_open ||
       function (tokens, idx, options, env, self) {
         return self.renderToken(tokens, idx, options)
