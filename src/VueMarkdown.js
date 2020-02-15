@@ -115,11 +115,12 @@ export default {
     if (this.emoji) {
       this.md.use(emoji)
     }
+
     if (this.sourceMap) {
       this.md.use(markdownItSourceMap)
     }
 
-    this.md.set({
+     this.md.set({
       html: this.html,
       xhtmlOut: this.xhtmlOut,
       breaks: this.breaks,
@@ -127,11 +128,13 @@ export default {
       typographer: this.typographer,
       langPrefix: this.langPrefix,
       quotes: this.quotes,
-    })
+    });
+
     let defaultLinkRenderer = this.md.renderer.rules.link_open ||
       function (tokens, idx, options, env, self) {
         return self.renderToken(tokens, idx, options)
       }
+
     this.md.renderer.rules.link_open = (tokens, idx, options, env, self) => {
       Object.keys(this.anchorAttributes).map((attribute) => {
         let aIndex = tokens[idx].attrIndex(attribute)
@@ -149,6 +152,7 @@ export default {
       this.md.render(
         this.prerender(this.sourceData)
       ) : ''
+
     outHtml = this.postrender(outHtml);
 
     this.$emit('rendered', outHtml)
